@@ -1,0 +1,30 @@
+.footer {
+  background-color: $red;
+  height: 474px;
+  color: $white;
+  font-family: $font-template;
+  font-size: 16px;
+  &-grid {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  &-list {
+    margin-top: 49px;
+  }
+  &-list__item {
+    padding-bottom: 7px;
+    list-style-type: none;
+  }
+  &-list__item:hover {
+    text-decoration: underline;
+  }
+  &-list__item--bold {
+      list-style-type: none;
+      font-weight: bold;
+      text-align: left;
+  }
+  &-link {
+    text-decoration: none;
+    color: $white;
+  }
+}

@@ -1,0 +1,28 @@
+.btn {
+  &-back {
+    width: 36px;
+    height: 37px;
+    background-color: $orange; 
+    border: 0;
+    cursor: pointer;
+    color: $white;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+  &-back:hover {
+    background-color: $orange-fine;
+  }
+  &-next {
+    width: 36px;
+    height: 37px;
+    background-color: $orange; 
+    border: 0;
+    cursor: pointer;
+    color: $white;
+    font-weight: bold;
+  }
+  &-next:hover {
+    background-color: $orange-fine;
+  }
+
+}

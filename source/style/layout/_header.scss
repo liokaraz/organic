@@ -1,0 +1,46 @@
+.header {
+  background-image: url('../image/slide/slide.png');
+  height: 917px;
+  &-icon {
+    padding-left: 25px;
+    padding-top: 21px;
+  }
+  &-grid {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  &-menu {
+      margin-top: -70px;
+  }
+  &-menu__link{
+    color: $white;
+    text-decoration: none;
+  }
+  &-menu__list--first {
+    color: $white;
+    list-style-type: none;
+    font-family: $font-template;
+    font-size: 20px;
+    display: inline-block;
+    width: 150px;
+    margin-left: -35px;
+  }
+  &-menu__list--first:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  &-menu__list {
+    list-style-type: none;
+    color: $white;
+    font-family: $font-template;
+    font-size: 20px;
+    display: inline-block;
+    width: 150px;
+  }
+  &-menu__list:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/*UTILITIES*/
+/*! Avalanche | MIT License | @colourgarden */
+/*------------------------------------*    SETTINGS
+\*------------------------------------*/
+/* Prefix namespace for width classes. For example; 'col-'*/
+/*------------------------------------*    LOGIC aka THE MAGIC
+\*------------------------------------*/
+/*------------------------------------*    GRID LAYOUT
+\*------------------------------------*/
+.grid {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: -20px;
+  font-size: 0rem; }
+
+.grid__cell {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  padding-left: 20px;
+  margin: 0;
+  vertical-align: top;
+  font-size: 1rem; }
+
+/*------------------------------------*    GRID WIDTHS
+\*------------------------------------*/
+.\31\/2, .\32\/4 {
+  width: 50%; }
+
+.\31\/3 {
+  width: 33.33333%; }
+
+.\32\/3 {
+  width: 66.66667%; }
+
+.\31\/4 {
+  width: 25%; }
+
+.\33\/4 {
+  width: 75%; }
+
+@media screen and (max-width: 499px) {
+  .\31\/2--thumb, .\32\/4--thumb {
+    width: 50%; }
+  .\31\/3--thumb {
+    width: 33.33333%; }
+  .\32\/3--thumb {
+    width: 66.66667%; }
+  .\31\/4--thumb {
+    width: 25%; }
+  .\33\/4--thumb {
+    width: 75%; } }
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .\31\/2--handheld, .\32\/4--handheld {
+    width: 50%; }
+  .\31\/3--handheld {
+    width: 33.33333%; }
+  .\32\/3--handheld {
+    width: 66.66667%; }
+  .\31\/4--handheld {
+    width: 25%; }
+  .\33\/4--handheld {
+    width: 75%; } }
+
+@media screen and (min-width: 500px) {
+  .\31\/2--handheld-and-up, .\32\/4--handheld-and-up {
+    width: 50%; }
+  .\31\/3--handheld-and-up {
+    width: 33.33333%; }
+  .\32\/3--handheld-and-up {
+    width: 66.66667%; }
+  .\31\/4--handheld-and-up {
+    width: 25%; }
+  .\33\/4--handheld-and-up {
+    width: 75%; } }
+
+@media screen and (max-width: 800px) {
+  .\31\/2--pocket, .\32\/4--pocket {
+    width: 50%; }
+  .\31\/3--pocket {
+    width: 33.33333%; }
+  .\32\/3--pocket {
+    width: 66.66667%; }
+  .\31\/4--pocket {
+    width: 25%; }
+  .\33\/4--pocket {
+    width: 75%; } }
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+  .\31\/2--lap, .\32\/4--lap {
+    width: 50%; }
+  .\31\/3--lap {
+    width: 33.33333%; }
+  .\32\/3--lap {
+    width: 66.66667%; }
+  .\31\/4--lap {
+    width: 25%; }
+  .\33\/4--lap {
+    width: 75%; } }
+
+@media screen and (min-width: 801px) {
+  .\31\/2--lap-and-up, .\32\/4--lap-and-up {
+    width: 50%; }
+  .\31\/3--lap-and-up {
+    width: 33.33333%; }
+  .\32\/3--lap-and-up {
+    width: 66.66667%; }
+  .\31\/4--lap-and-up {
+    width: 25%; }
+  .\33\/4--lap-and-up {
+    width: 75%; } }
+
+@media screen and (max-width: 1024px) {
+  .\31\/2--portable, .\32\/4--portable {
+    width: 50%; }
+  .\31\/3--portable {
+    width: 33.33333%; }
+  .\32\/3--portable {
+    width: 66.66667%; }
+  .\31\/4--portable {
+    width: 25%; }
+  .\33\/4--portable {
+    width: 75%; } }
+
+@media screen and (min-width: 1025px) {
+  .\31\/2--desk, .\32\/4--desk {
+    width: 50%; }
+  .\31\/3--desk {
+    width: 33.33333%; }
+  .\32\/3--desk {
+    width: 66.66667%; }
+  .\31\/4--desk {
+    width: 25%; }
+  .\33\/4--desk {
+    width: 75%; } }
+
+@media screen and (min-width: 1160px) {
+  .\31\/2--widescreen, .\32\/4--widescreen {
+    width: 50%; }
+  .\31\/3--widescreen {
+    width: 33.33333%; }
+  .\32\/3--widescreen {
+    width: 66.66667%; }
+  .\31\/4--widescreen {
+    width: 25%; }
+  .\33\/4--widescreen {
+    width: 75%; } }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .\31\/2--retina, .\32\/4--retina {
+    width: 50%; }
+  .\31\/3--retina {
+    width: 33.33333%; }
+  .\32\/3--retina {
+    width: 66.66667%; }
+  .\31\/4--retina {
+    width: 25%; }
+  .\33\/4--retina {
+    width: 75%; } }
+
+/*BASE*/
+/*LAYOUT*/
+.header {
+  background-image: url("../image/slide/slide.png");
+  height: 917px; }
+  .header-icon {
+    padding-left: 25px;
+    padding-top: 21px; }
+  .header-grid {
+    margin-left: 200px;
+    margin-right: 200px; }
+  .header-menu {
+    margin-top: -70px; }
+  .header-menu__link {
+    color: #fff;
+    text-decoration: none; }
+  .header-menu__list--first {
+    color: #fff;
+    list-style-type: none;
+    font-family: Myriad Pro;
+    font-size: 20px;
+    display: inline-block;
+    width: 150px;
+    margin-left: -35px; }
+  .header-menu__list--first:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+  .header-menu__list {
+    list-style-type: none;
+    color: #fff;
+    font-family: Myriad Pro;
+    font-size: 20px;
+    display: inline-block;
+    width: 150px; }
+  .header-menu__list:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+
+body {
+  margin-left: 0 auto;
+  /* pour Ã©viter les marges */
+  margin-right: 0 auto;
+  /* pour Ã©viter les marges */ }
+
+.footer {
+  background-color: #e77673;
+  height: 474px;
+  color: #fff;
+  font-family: Myriad Pro;
+  font-size: 16px; }
+  .footer-grid {
+    margin-left: 200px;
+    margin-right: 200px; }
+  .footer-list {
+    margin-top: 49px; }
+  .footer-list__item {
+    padding-bottom: 7px;
+    list-style-type: none; }
+  .footer-list__item:hover {
+    text-decoration: underline; }
+  .footer-list__item--bold {
+    list-style-type: none;
+    font-weight: bold;
+    text-align: left; }
+  .footer-link {
+    text-decoration: none;
+    color: #fff; }
+
+main {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 69px; }
+
+.main-desk {
+  color: #fe992a;
+  font-family: Myriad Pro;
+  font-size: 26.6px;
+  font-style: italic; }
+
+.main-desk__next-back {
+  float: right;
+  margin-bottom: 5px; }
+
+.main-panel {
+  padding-left: 106px; }
+
+.main-panel__title {
+  color: #fe992a;
+  font-family: Myriad Pro;
+  font-size: 20px;
+  font-weight: lighter; }
+
+.main-panel__desk {
+  color: #737c85;
+  font-family: Myriad Pro; }
+
+/*COMPONENTS*/
+.slide {
+  color: #fff;
+  font-family: Myriad Pro;
+  padding-top: 171px;
+  font-weight: lighter; }
+  .slide-title {
+    font-size: 50px; }
+  .slide-content {
+    font-family: Myriad Pro;
+    font-weight: lighter; }
+
+.btn-back {
+  width: 36px;
+  height: 37px;
+  background-color: #fe992a;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 5px; }
+
+.btn-back:hover {
+  background-color: #ffba6e; }
+
+.btn-next {
+  width: 36px;
+  height: 37px;
+  background-color: #fe992a;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold; }
+
+.btn-next:hover {
+  background-color: #ffba6e; }

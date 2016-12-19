@@ -1,0 +1,13 @@
+.slide {
+    color: $white;
+    font-family: $font-template;
+    padding-top: 171px;
+    font-weight: lighter;
+    &-title {
+        font-size: 50px;
+    }
+    &-content {
+        font-family: $font-template;
+        font-weight: lighter;
+    }
+}

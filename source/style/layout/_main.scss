@@ -1,0 +1,31 @@
+main {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 69px;
+}
+.main{
+  &-desk {
+    color: $orange;
+    font-family: $font-template;
+    font-size: 26.6px;
+    font-style: italic;
+  }
+  &-desk__next-back {
+    float: right; 
+    margin-bottom: 5px;
+  }
+
+  &-panel {
+    padding-left: 106px;
+  }
+  &-panel__title {
+      color: $orange;
+      font-family: $font-template;
+      font-size: 20px;
+      font-weight: lighter;
+  }
+  &-panel__desk {
+      color: $grey;
+      font-family: $font-template;
+  }
+}

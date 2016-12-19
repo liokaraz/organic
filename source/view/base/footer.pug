@@ -1,0 +1,23 @@
+-var listAddress = ["P +64 9555 555", "F +64 9555 555", "E info@email.com"];
+-var listServices = ["Services", "Commercial", "Distribution", "Gas", "Generation", "Industrial", "Telecomms", "Transmission","Water"];
+-var listMarket = ["Markets", "Commercial", "Industrial", "Infrastructure", "Ressources", "Utilities"];
+-var listHS = ["HSEQ", "Health &", "Safety", "Environment", "Quality"];
+.footer
+    .footer-grid
+        .grid
+            .grid__cell(class="1/4")
+                .footer-list
+                    ul
+                    +menuFooter(listAddress)
+                    li.footer-list__item
+                        .footer-list__item--bold Address
+                    li.footer-list__item http://www.libsum.com/feed/htm
+            .grid__cell(class="1/4")
+                +menuFooter(listServices)
+
+            .grid__cell(class="1/4")
+                +menuFooter(listMarket)
+
+            .grid__cell(class="1/4")
+                +menuFooter(listHS)
+
